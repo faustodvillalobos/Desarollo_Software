@@ -1,0 +1,155 @@
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+.fimanager:before {
+    display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.flaticon-001-center-alignment:before { content: "\f100"; }
+.flaticon-002-left-alignment:before { content: "\f101"; }
+.flaticon-003-right-alignment:before { content: "\f102"; }
+.flaticon-004-attachment:before { content: "\f103"; }
+.flaticon-005-speech-bubble:before { content: "\f104"; }
+.flaticon-006-speech-bubble:before { content: "\f105"; }
+.flaticon-007-placeholder:before { content: "\f106"; }
+.flaticon-008-cloud-computing:before { content: "\f107"; }
+.flaticon-009-compass:before { content: "\f108"; }
+.flaticon-010-phone-book:before { content: "\f109"; }
+.flaticon-011-phone-book:before { content: "\f10a"; }
+.flaticon-012-cursor:before { content: "\f10b"; }
+.flaticon-013-computer:before { content: "\f10c"; }
+.flaticon-014-gamepad:before { content: "\f10d"; }
+.flaticon-015-smartphone:before { content: "\f10e"; }
+.flaticon-016-tablet:before { content: "\f10f"; }
+.flaticon-017-document:before { content: "\f110"; }
+.flaticon-018-document:before { content: "\f111"; }
+.flaticon-019-document:before { content: "\f112"; }
+.flaticon-020-document:before { content: "\f113"; }
+.flaticon-021-upload:before { content: "\f114"; }
+.flaticon-022-download:before { content: "\f115"; }
+.flaticon-023-folder:before { content: "\f116"; }
+.flaticon-024-earth-globe:before { content: "\f117"; }
+.flaticon-025-internet:before { content: "\f118"; }
+.flaticon-026-heart:before { content: "\f119"; }
+.flaticon-027-broken-heart:before { content: "\f11a"; }
+.flaticon-028-browser:before { content: "\f11b"; }
+.flaticon-029-layers:before { content: "\f11c"; }
+.flaticon-030-link:before { content: "\f11d"; }
+.flaticon-031-list:before { content: "\f11e"; }
+.flaticon-032-padlock:before { content: "\f11f"; }
+.flaticon-033-unlock:before { content: "\f120"; }
+.flaticon-034-email:before { content: "\f121"; }
+.flaticon-035-mail:before { content: "\f122"; }
+.flaticon-036-microphone:before { content: "\f123"; }
+.flaticon-037-film:before { content: "\f124"; }
+.flaticon-038-notification:before { content: "\f125"; }
+.flaticon-039-pencil:before { content: "\f126"; }
+.flaticon-040-picture:before { content: "\f127"; }
+.flaticon-041-user:before { content: "\f128"; }
+.flaticon-042-push-pin:before { content: "\f129"; }
+.flaticon-043-airplane:before { content: "\f12a"; }
+.flaticon-044-user:before { content: "\f12b"; }
+.flaticon-045-user:before { content: "\f12c"; }
+.flaticon-046-group:before { content: "\f12d"; }
+.flaticon-047-user:before { content: "\f12e"; }
+.flaticon-048-settings:before { content: "\f12f"; }
+.flaticon-049-share:before { content: "\f130"; }
+.flaticon-050-shield:before { content: "\f131"; }
+.flaticon-051-shield:before { content: "\f132"; }
+.flaticon-052-shield:before { content: "\f133"; }
+.flaticon-053-cancel:before { content: "\f134"; }
+.flaticon-054-clock:before { content: "\f135"; }
+.flaticon-055-clock:before { content: "\f136"; }
+.flaticon-056-light-bulb:before { content: "\f137"; }
+.flaticon-057-light-bulb:before { content: "\f138"; }
+.flaticon-058-volume:before { content: "\f139"; }
+.flaticon-059-zoom-in:before { content: "\f13a"; }
+.flaticon-060-zoom-out:before { content: "\f13b"; }
+
+$font-Flaticon-001-center-alignment: "\f100";
+$font-Flaticon-002-left-alignment: "\f101";
+$font-Flaticon-003-right-alignment: "\f102";
+$font-Flaticon-004-attachment: "\f103";
+$font-Flaticon-005-speech-bubble: "\f104";
+$font-Flaticon-006-speech-bubble: "\f105";
+$font-Flaticon-007-placeholder: "\f106";
+$font-Flaticon-008-cloud-computing: "\f107";
+$font-Flaticon-009-compass: "\f108";
+$font-Flaticon-010-phone-book: "\f109";
+$font-Flaticon-011-phone-book: "\f10a";
+$font-Flaticon-012-cursor: "\f10b";
+$font-Flaticon-013-computer: "\f10c";
+$font-Flaticon-014-gamepad: "\f10d";
+$font-Flaticon-015-smartphone: "\f10e";
+$font-Flaticon-016-tablet: "\f10f";
+$font-Flaticon-017-document: "\f110";
+$font-Flaticon-018-document: "\f111";
+$font-Flaticon-019-document: "\f112";
+$font-Flaticon-020-document: "\f113";
+$font-Flaticon-021-upload: "\f114";
+$font-Flaticon-022-download: "\f115";
+$font-Flaticon-023-folder: "\f116";
+$font-Flaticon-024-earth-globe: "\f117";
+$font-Flaticon-025-internet: "\f118";
+$font-Flaticon-026-heart: "\f119";
+$font-Flaticon-027-broken-heart: "\f11a";
+$font-Flaticon-028-browser: "\f11b";
+$font-Flaticon-029-layers: "\f11c";
+$font-Flaticon-030-link: "\f11d";
+$font-Flaticon-031-list: "\f11e";
+$font-Flaticon-032-padlock: "\f11f";
+$font-Flaticon-033-unlock: "\f120";
+$font-Flaticon-034-email: "\f121";
+$font-Flaticon-035-mail: "\f122";
+$font-Flaticon-036-microphone: "\f123";
+$font-Flaticon-037-film: "\f124";
+$font-Flaticon-038-notification: "\f125";
+$font-Flaticon-039-pencil: "\f126";
+$font-Flaticon-040-picture: "\f127";
+$font-Flaticon-041-user: "\f128";
+$font-Flaticon-042-push-pin: "\f129";
+$font-Flaticon-043-airplane: "\f12a";
+$font-Flaticon-044-user: "\f12b";
+$font-Flaticon-045-user: "\f12c";
+$font-Flaticon-046-group: "\f12d";
+$font-Flaticon-047-user: "\f12e";
+$font-Flaticon-048-settings: "\f12f";
+$font-Flaticon-049-share: "\f130";
+$font-Flaticon-050-shield: "\f131";
+$font-Flaticon-051-shield: "\f132";
+$font-Flaticon-052-shield: "\f133";
+$font-Flaticon-053-cancel: "\f134";
+$font-Flaticon-054-clock: "\f135";
+$font-Flaticon-055-clock: "\f136";
+$font-Flaticon-056-light-bulb: "\f137";
+$font-Flaticon-057-light-bulb: "\f138";
+$font-Flaticon-058-volume: "\f139";
+$font-Flaticon-059-zoom-in: "\f13a";
+$font-Flaticon-060-zoom-out: "\f13b";
