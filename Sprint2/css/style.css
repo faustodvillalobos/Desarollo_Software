@@ -1,0 +1,19 @@
+.text-center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:rgb(233, 230, 230);
+  }
+
+body{
+    background-color:rgb(233, 230, 230);
+}
+
+.verticalLine { 
+  border-left: thick solid rgb(32, 31, 31); 
+}
+
+text-muted{
+  justify-content: center;
+}
