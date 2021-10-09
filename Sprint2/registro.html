@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,18 +8,105 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>MarketPlace</title>
+    <script src="js/main.js"></script>
 </head>
 <body>
-    <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown button
-        </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
+    <header>
+        <div class="px-3 py-0 bg-dark text-white">
+          <div class="container">
+            <div class="d-flex flex-wrap align-content-end justify-content-end justify-content-end">
+              <ul class="nav col-12 col-lg-auto my-2 justify-content-end my-md-0 text-small">
+                <div class="btn btn-lg btn-dark">
+                    <a href="index.html" ><img src="img/Iconos/home.png" width="40" height="40" class=rounded >                   
+                    </a>                 
+                  </div>
+              </div>
+                  </ul> 
+                </div>
+              </ul>
+            </div>
         </div>
-      </div>
+    </header>
+    <br>
+    <div class="container"> 
+        <div class="row">
+            <div class="col-12 col-lg-8">
+                <h1 class="h3 mb-3 fw-normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Regístrate con nosotros </font></font></h1>
+                    <form class="markform">
+                        <div class="mb-3">
+                            <div class="row">
+                                <div class="col">
+                                    <label for="formGroupExampleInput" class="form-label">Apellidos</label><input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
+                                </div>
+                                <div class="col">
+                                    <label for="formGroupExampleInput" class="form-label">Nombre(s)</label><input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <label for="formGroupExampleInput" class="form-label">Tipo de documento</label>
+                                    <select class="form-select" aria-label="Default select">
+                                        <option selected>Seleccione una opción</option>
+                                        <option value="1">Cédula de ciudadanía</option>
+                                        <option value="2">Tarjeta de identidad</option>
+                                        <option value="3">Cédula de extranjería</option>
+                                        <option value="3">Pasaporte</option>
+                                      </select>
+                                </div>
+                                <div class="col">
+                                    <label for="formGroupInput" class="form-label">Número de documento</label><input type="number" class="form-control" id="formGroupInput" placeholder="">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <label for="formGroupInput" class="form-label">País</label><input type="text" class="form-control" id="formGroupInput" placeholder="">
+                                </div>
+                                <div class="col">
+                                    <label for="formGroupInput" class="form-label">Departamento/Estado</label><input type="text" class="form-control" id="formGroupInput" placeholder="">
+                                </div>
+                                <div class="col">
+                                    <label for="formGroupInput" class="form-label">Ciudad/Provincia</label><input type="text" class="form-control" id="formGroupInput" placeholder="">
+                                </div>
+                            </div>
+                            <label for="formGroupInput" class="form-label">Dirección de residencia</label><input type="text" class="form-control" id="formGroupInput" placeholder="">
+                          <label for="Email1" class="form-label">Correo electrónico</label>
+                          <input type="email" class="form-control" id="Email1" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <div class="row">
+                                <div class="col">
+                                    <label for="InputPassword1" class="form-label">Contraseña</label>
+                                    <input type="password" class="form-control" id="InputPassword1">
+                                    <div id="emailHelp" class="form-text">Mínimo 8 caracteres.</div>
+                                </div>
+                                <div class="col">   
+                                    <label for="InputPassword1" class="form-label">Confirme su contraseña</label>
+                                    <input type="password" class="form-control" id="InputPassword1">
+                                </div> 
+                            </div>
+                        <div class="mb-3 form-check">
+                          <input type="checkbox" class="form-check-input" id="Check1">
+                          <label class="form-check-label" for="Check1">Autoriza el tratamiento de datos personales</label>
+                        </div>
+                        <div class="col-lg-12">
+                            <center>
+                                <button type="submit" class="btn btn-dark">Registrarte</button>
+                                <button class="btn btn-sm btn-dark" type="submit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><img src="img/181501-interface/svg/google.svg "  width="24" height="24"> Registrarte con Google</font></font></button>
+                            </center>    
+                        </div>
+                    </div>                    
+                      </form>
+
+            </div>
+        </div>
+                    
+                </div>
+            </div>
+        </div>      
+    </div>  
+ </div>
+  
 </body>
 </html>

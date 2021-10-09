@@ -17,3 +17,7 @@ body{
 text-muted{
   justify-content: center;
 }
+.nav{
+  display: flex;
+   align-items: center;
+}
