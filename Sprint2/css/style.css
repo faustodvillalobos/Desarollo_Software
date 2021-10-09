@@ -17,7 +17,7 @@ body{
 text-muted{
   justify-content: center;
 }
-.nav{
+.nav, .card{
   display: flex;
    align-items: center;
 }
