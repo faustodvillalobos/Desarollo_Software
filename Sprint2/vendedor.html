@@ -33,12 +33,11 @@
                 </font></font></a>
               </li>
               <li>
-                <a href="#" class="nav-link text-white">
+                <a href="productos.html" class="nav-link text-white">
                   <font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
                   Productos
                 </font></font></a>
               </li>
-             
               <div class="btn btn-lg btn-dark">
                 <a class="btn btn-light text-dark me-2" href="inicioSesionAdmVend.html" ><img src="img/149086-essential-set/svg/user.svg" width="25" height="25" >                   
                 </a>                 
@@ -47,50 +46,126 @@
                 <a class="btn btn-light text-dark me-2" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" ><img src="img/149086-essential-set/png/exit.png" width="25" height="25" >                   
                 </a>                 
               </div>
-
               </ul>
             </div>
         </div>
-        <div class="px-3 py-2 border-bottom mb-3">
-          <div class="container d-flex flex-wrap justify-content-md-start">          
-            <input type="search" class="mark-filter col-6" placeholder="Buscar...">
-              <br>          
-          </div>
-          <div class="card" style="width: 18rem;">
-            <img src="img/productos/camisa.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Camisa</h5>
-              <p class="card-text">Referencia:1234</p>
-              <a href="#" class="btn btn-primary">Registrar venta</a>
-            </div>
-          </div>
-          <div class="card" style="width: 18rem;">
-            <img src="img/productos/chaqueta.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Chaqueta</h5>
-              <p class="card-text">Referencia:1234</p>
-              <a href="#" class="btn btn-primary">Registrar venta</a>
-            </div>
-          </div>
-          <div class="card" style="width: 18rem;">
-            <img src="img/productos/pantalon.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Pantalón</h5>
-              <p class="card-text">Referencia:1234</p>
-              <a href="#" class="btn btn-primary">Registrar venta</a>
-            </div>
-          </div>
-         
-        </div>
-      </header>
-      <div class="row">
-        <div class="col-md-12">  
-          <footer class="d-flex flex-wrap justify-content-center align-items-center">
-            <div class="d-flex align-items-center">
-            <span class="text-muted">© 2021 MinTic Team 9teen.</span>
-            </div>
-          </footer>
-        </div> 
-      </div>   
+        <br>
+        <div class="container col-md-7">
+          <h1 class="h3 mb-3 fw-normal">¡Bienvenido(a)! A continuación puede registrar sus ventas</h1>
+            <form>
+              <div class="mb-3">
+                  <div class="row">
+                      <div class="col">
+                          <label for="formGroupExampleInput" class="form-label">Cliente</label><input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
+                      </div>
+                      <div class="col">
+                          <label for="formGroupExampleInput" class="form-label">Fecha de Venta</label><input type="date" class="form-control" id="formGroupExampleInput" placeholder="">
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col">
+                          <label for="formGroupExampleInput" class="form-label">Tipo de documento</label>
+                          <select class="form-select" aria-label="Default select">
+                              <option selected>Seleccione una opción</option>
+                              <option value="1">Cédula de ciudadanía</option>
+                              <option value="2">NIT</option>
+                              <option value="3">Cédula de extranjería</option>
+                              <option value="3">Pasaporte</option>
+                            </select>
+                      </div>
+                      <div class="col">
+                          <label for="formGroupInput" class="form-label">Número de documento</label><input type="number" class="form-control" id="formGroupInput" placeholder="">
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col">
+                          <label for="formGroupInput" class="form-label">País</label><input type="text" class="form-control" id="formGroupInput" placeholder="">
+                      </div>
+                      <div class="col">
+                          <label for="formGroupInput" class="form-label">Departamento/Estado</label><input type="text" class="form-control" id="formGroupInput" placeholder="">
+                      </div>
+                      <div class="col">
+                          <label for="formGroupInput" class="form-label">Ciudad/Provincia</label><input type="text" class="form-control" id="formGroupInput" placeholder="">
+                      </div>
+                  </div>
+                  <label for="formGroupInput" class="form-label">Dirección de correspondencia</label><input type="text" class="form-control" id="formGroupInput" placeholder="">
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="Check1">
+                  <label class="form-check-label" for="Check1">Enviar a domicilio</label>
+                </div>
+                <label for="Email1" class="form-label">Correo electrónico</label>
+                <input type="email" class="form-control" id="Email1" aria-describedby="emailHelp">
+                <br>
+              
+                  <button type="submit" class="btn btn-dark">+ Agregar Artículos</button>
+                           
+              </div>
+              <br>
+              
+              <div class="container"> 
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">Artículos</th>
+                      <th scope="col">Cantidad</th>
+                      <th scope="col">Precio de Venta</th>
+                      <th scope="col">Descuento</th>
+                      <th scope="col">Subtotal</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>TOTAL</td>
+                      <td> </td>
+                      <td> </td>
+                    </tr>
+                    </tbody>
+                </table>
+
+              </div>
+             
+ 
+                      <div class="container mb-3">
+                          <div class="row">
+                              <div class="col">
+                                  <label for="InputPassword1" class="form-label">ID Vendedor</label>
+                                  <input type="password" class="form-control" id="InputPassword1">
+                                  
+                              </div><br>
+                              <div class="row">
+                                <div class="col">
+                                    <label for="formGroupExampleInput" class="form-label">Forma de pago</label>
+                                    <select class="form-select" aria-label="Default select">
+                                        <option selected>Seleccione una opción</option>
+                                        <option value="1">Tarjeta de Crédito</option>
+                                        <option value="2">Efectivo</option>
+                                        <option value="3">Crédito</option>
+                                        <option value="3">PSE</option>
+                                      </select>
+                                </div>
+                          </div>
+                      <!--<div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="Check1">
+                        <label class="form-check-label" for="Check1">Enviar a domicilio</label>!-->
+                      </div>
+                      <div class="col-md-3"></div>                            
+                      </div>
+                      <center>
+                          <button type="submit" class="btn btn-dark">Enviar</button>
+                          <button type="submit" class="btn btn-dark">Cancelar</button>
+                      </center>
+                      <br><br>
+                      <div class="row">
+                        <div class="col-md-12">  
+                          <footer class="d-flex flex-wrap justify-content-center align-items-center">
+                            <div class="d-flex align-items-center">
+                            <span class="text-muted">© 2021 MinTic Team 9teen.</span>
+                            </div>
+                          </footer>
+                        </div> 
+                      </div>  
+                      
 </body>
 </html>

@@ -58,164 +58,59 @@
             </div>
         </div>
       </header>
-
-          <div class="container col-md-7">
-            <h1 class="h3 mb-3 fw-normal">Venta</h1>
-              <form>
-                <div class="mb-3">
-                    <div class="row">
-                        <div class="col">
-                            <label for="formGroupExampleInput" class="form-label">Cliente</label><input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
-                        </div>
-                        <div class="col">
-                            <label for="formGroupExampleInput" class="form-label">Fecha de Venta</label><input type="date" class="form-control" id="formGroupExampleInput" placeholder="">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <label for="formGroupExampleInput" class="form-label">Tipo de documento</label>
-                            <select class="form-select" aria-label="Default select">
-                                <option selected>Seleccione una opción</option>
-                                <option value="1">Cédula de ciudadanía</option>
-                                <option value="2">NIT</option>
-                                <option value="3">Cédula de extranjería</option>
-                                <option value="3">Pasaporte</option>
-                              </select>
-                        </div>
-                        <div class="col">
-                            <label for="formGroupInput" class="form-label">Número de documento</label><input type="number" class="form-control" id="formGroupInput" placeholder="">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <label for="formGroupInput" class="form-label">País</label><input type="text" class="form-control" id="formGroupInput" placeholder="">
-                        </div>
-                        <div class="col">
-                            <label for="formGroupInput" class="form-label">Departamento/Estado</label><input type="text" class="form-control" id="formGroupInput" placeholder="">
-                        </div>
-                        <div class="col">
-                            <label for="formGroupInput" class="form-label">Ciudad/Provincia</label><input type="text" class="form-control" id="formGroupInput" placeholder="">
-                        </div>
-                    </div>
-                    <label for="formGroupInput" class="form-label">Dirección de correspondencia</label><input type="text" class="form-control" id="formGroupInput" placeholder="">
-                  </div>
-                  <div class="mb-3 form-check">
-                    <input type="checkbox" class="form-check-input" id="Check1">
-                    <label class="form-check-label" for="Check1">Enviar a domicilio</label>
-                  </div>
-                  <label for="Email1" class="form-label">Correo electrónico</label>
-                  <input type="email" class="form-control" id="Email1" aria-describedby="emailHelp">
-                  <br>
-                
-                    <button type="submit" class="btn btn-dark">+ Agregar Artículos</button>
-                             
-                </div>
-                <br>
-                
-                <div class="container"> 
-                  <table class="table">
-                    <thead>
+<br>
+<div class="px-3 py-2 border-bottom mb-3">
+  <div class="container d-flex flex-wrap justify-content-md-start">          
+    <input type="search" class="mark-filter col-6" placeholder="Buscar...">
+      <br>          
+  </div>
+</div>
+            <div class="container">
+              <table class="table table-dark table-borderless">
+                  <thead>
                       <tr>
-                        <th scope="col">Artículos</th>
-                        <th scope="col">Cantidad</th>
-                        <th scope="col">Precio de Venta</th>
-                        <th scope="col">Descuento</th>
-                        <th scope="col">Subtotal</th>
+                        <th scope="col">Id Venta</th>
+                        <th scope="col">Nombre Cliente</th>
+                        <th scope="col">Documento Cliente</th>
+                        <th scope="col">Fecha</th>
+                        <th scope="col">  <img class="rounded" src="img/Iconos/config.jpg" width="30" height="30">  </th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
-                        <th scope="row">1</th>
-                        <td>TOTAL</td>
-                        <td> </td>
-                        <td> </td>
+                        <th scope="row">123</th>
+                        <td>John</td>
+                        <td>4321</td>
+                        <td> Abril </td>
+                        <td><button type="submit" class="btn btn-light">Editar</button> </td>
                       </tr>
-                      </tbody>
-                  </table>
-
-                </div>
-               
-                <div class="px-3 py-2 border-bottom mb-3">
-                  <div class="container d-flex flex-wrap justify-content-md-start">
-                    <form class="col-12 col-lg-auto mb-2 mb-lg-0 me-lg-auto">
-                        <input type="search" class="mark-filter" placeholder="Buscar...">
-                    </form>
+                      <tr>
+                        <th scope="row">123</th>
+                        <td>Jacob</td>
+                        <td>4321</td>
+                        <td>Mayo</td>
+                        <td><button type="submit" class="btn btn-light">Editar</button> </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">123</th>
+                        <td>Mark</td>
+                        <td>4321</td>
+                        <td>Junio</td>
+                        <td><button type="submit" class="btn btn-light">Editar</button> </td>
+                      </tr>
+                    </tbody>
+                </table>
+            </div>
+            <br><br>
+            <div class="row">
+              <div class="col-md-12">  
+                <footer class="d-flex flex-wrap justify-content-center align-items-center">
+                  <div class="d-flex align-items-center">
+                  <span class="text-muted">© 2021 MinTic Team 9teen.</span>
                   </div>
-                </div>
-                
-                <div class="container">
-                  <table class="table table-dark table-borderless">
-                      <thead>
-                          <tr>
-                            <th scope="col">Id producto</th>
-                            <th scope="col">Unidades</th>
-                            <th scope="col">Precio</th>
-                            <th scope="col">Subtotal</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <th scope="row">1</th>
-                            <td>x</td>
-                            <td>x</td>
-                            <td>$$$</td>
-                          </tr>
-                          <tr>
-                            <th scope="row">2</th>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                          </tr>
-                          <tr>
-                            <th scope="row">3</th>
-                            <td colspan="2"></td>
-                            <td></td>
-                          </tr>
-                        </tbody>
-                    </table>
-                </div>
- 
-
-                        <div class="container mb-3">
-                            <div class="row">
-                                <div class="col">
-                                    <label for="InputPassword1" class="form-label">ID Vendedor</label>
-                                    <input type="password" class="form-control" id="InputPassword1">
-                                    
-                                </div><br>
-                                <div class="row">
-                                  <div class="col">
-                                      <label for="formGroupExampleInput" class="form-label">Forma de pago</label>
-                                      <select class="form-select" aria-label="Default select">
-                                          <option selected>Seleccione una opción</option>
-                                          <option value="1">Tarjeta de Crédito</option>
-                                          <option value="2">Efectivo</option>
-                                          <option value="3">Crédito</option>
-                                          <option value="3">PSE</option>
-                                        </select>
-                                  </div>
-                            </div>
-                        <!--<div class="mb-3 form-check">
-                          <input type="checkbox" class="form-check-input" id="Check1">
-                          <label class="form-check-label" for="Check1">Enviar a domicilio</label>!-->
-                        </div>
-                        <div class="col-md-3"></div>                            
-                        </div>
-                        <center>
-                            <button type="submit" class="btn btn-dark">Enviar</button>
-                            <button type="submit" class="btn btn-dark">Cancelar</button>
-                        </center>
-                        <br><br>
-                        <div class="row">
-                          <div class="col-md-12">  
-                            <footer class="d-flex flex-wrap justify-content-center align-items-center">
-                              <div class="d-flex align-items-center">
-                              <span class="text-muted">© 2021 MinTic Team 9teen.</span>
-                              </div>
-                            </footer>
-                          </div> 
-                        </div>  
-                        
+                </footer>
+              </div> 
+            </div>            
  </body>
 
 </html>
