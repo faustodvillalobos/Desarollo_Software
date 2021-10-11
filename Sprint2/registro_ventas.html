@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>MarketPlace</title>
+</head>
+<body><div id = "Padre">
+    <thead>
+     <div id = "div1">
+     <p>Productos</P>
+     <select id = "productos" class="caja">
+      <option value = ""> Tipo de Productos
+      <option value = "Productos1">Productos1<Productos/option>
+      <option value = "Productos2">Productos2<Productos/option>
+      </select>
+    </div>
+    <div id = "div2">
+     <p>Precio</p>
+     <input type = "text" id ="Precio" class="caja">
+    </div>
+    <div id = "div3">
+     <p>Cantidad</p>
+     <input type = "text" id ="Cantidad" class="caja">
+    </div>
+    </thead>
+
+     </div>
+     <select id = "Estado" class="caja">
+     <option value = ""> Estado de las Ventas
+     <option value = "Pagado pendiente de envio"> Pagado pedniente de envio <Estado>
+     <option value = "Pendiente de Pago"> Pendiente de Pago <Estado>
+     <option value = "Pagado y enviado"> Pagado y enviado <Estado>
+     </select>
+     <button type = "button" name = "button" = id "buttton" onclick = "agregar()"> agregar</button>
+      <table id = "info" style = "margin: 0 auto;">
+       <thead>
+      <tr>
+       <th>Productos</th>
+       <th>Precio</th>
+       <th>Cantidad</th>
+       <th>Subtotal</th>
+       <th>Estado</th>
+     </tr>
+     </thead> 
+    </table>
+    <div  id= "asd"><div>
+     <p>Subtotal:</p>
+     <input type = "text id= "Subtotal" class = "caja">
+    </div>
+    <div>
+     <p>Impuestos:</p>
+     <input type = "text" id= "Impuestos" class = "caja">
+     <p>Total:</p>
+     <input type = "text" id= "Total" class = "caja">
+    </div>
+    
+
+
+
